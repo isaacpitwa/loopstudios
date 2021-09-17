@@ -10,15 +10,22 @@
     /* font-family: 'Josefin Sans', sans-serif; */
     margin: 0;
 }
+
 .d-flex{
     display: flex;
 }
 .hero-section{
-    padding: 36px 32px;
     background-image: url('../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 82vh;
+    position: relative;
+}
+.hero-container{
+    padding: 36px 32px;
+    background:  hsla(0, 0%, 0%, 0.33);
+    max-height: 80vh;
+    padding-bottom: 15vh;
 }
 /* Header */
 nav.header{
@@ -26,7 +33,7 @@ nav.header{
     align-items: center;
     justify-content: space-between;
     padding: 1% 8% 1% 0;
-    background-color: var(--light-gray);
+    color: var(--white-color) !important;
 }
 .header .brand{
     margin-left: 9%;
@@ -50,4 +57,18 @@ nav.header{
 }
 .header-nav li a:hover{
     color: var(--dark-gray-color);
+}
+.landing{
+    color: var(--dark-gray-color);
+    border: 2px solid var(--dark-gray-color);
+    margin: 20vh 8vw 0 8vw;
+    padding:  16px;
+    width: 40%;
+}
+.landing h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.f-48{
+    font-size: 52px;
+    text-transform: uppercase;
 }
