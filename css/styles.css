@@ -1,0 +1,11 @@
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+
+    --dark-gray-color:hsl(0, 0%, 55%);
+    --very-dark-gray-color:hsl(0, 0%, 41%);
+  }
+*{
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
