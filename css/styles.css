@@ -89,7 +89,7 @@ nav.header{
     bottom: 2%;
     background-color: var(--white-color);
 }
-.interactive-text h4{
+ h4{
     font-size: 3.1rem;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
@@ -102,4 +102,29 @@ nav.header{
     color: var(--dark-gray-color);
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.2rem;
+}
+
+/* Creations Section */
+section.creations-section{
+padding: 8vh 10vw
+}
+section.creations-section h4{
+    margin-bottom: 0;
+}
+.heading-row{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.more-btn{
+    padding: 10px 42px;
+    border: 1.5px solid var(--black-color);
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--black-color);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    border-radius: 2px;
 }
