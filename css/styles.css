@@ -10,3 +10,44 @@
     /* font-family: 'Josefin Sans', sans-serif; */
     margin: 0;
 }
+.d-flex{
+    display: flex;
+}
+.hero-section{
+    padding: 36px 32px;
+    background-image: url('../images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+/* Header */
+nav.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 8% 1% 0;
+    background-color: var(--light-gray);
+}
+.header .brand{
+    margin-left: 9%;
+}
+.header .collapse-items{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    list-style: none;
+    display: inline-flex;
+   
+}
+.header-nav li{
+    margin: auto;
+}
+.header-nav li a{
+    padding: 0 24px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+.header-nav li a:hover{
+    color: var(--dark-gray-color);
+}
