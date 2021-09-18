@@ -185,15 +185,26 @@ section.footer{
     background-color: var(--black-color);
     padding: 3% 9%;
 }
-.logo-row{
+.logo-row,.footer-links{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.social-icons{
+.social-icons,.footer-nav{
     display: flex;
     list-style: none;
+    padding:0;
 }
-.social-link{
+.social-link,.footer-links .nav-item{
     margin: 0 8px;
+}
+.footer-links{
+    padding: 3% 0;
+}
+.footer-links a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.footer .copyright{
+    color: var(--dark-gray-color);
 }
